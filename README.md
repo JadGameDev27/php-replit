@@ -24,7 +24,7 @@ const express = require("express");
 var app = express();
 
 var phpExpress = require('php-express')({
-  binPath: './php/bin'
+  binPath: './php/bin/php'
 });
 
 app.set('views', './web');
